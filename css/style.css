@@ -238,13 +238,24 @@ background:#f2f2f2;
 /* ================================================= about ================================================== */
 
 .about-content p{
-font-size:14px;
+font-size:16px;
 padding-bottom:20px;
 margin:0;
 width: 98%;    
 }
+.about-quote {
+ padding-bottom:40px;
+ text-align:center;
+}
 .about-quote p{
  font-style:italic;
+ font-size:18px;
+}
+.about-quote:before {
+display: block;
+font-size: 80px;
+top: -20px;
+color: #7a7a7a;
 }
 .avatar{
  max-width:120px;   
@@ -267,13 +278,13 @@ color:#fff;
 }
 
 .obsessions {
-    text-align:center;
+text-align:center;
 }
 .obsessions h4 {
-    font-weight:bold;
+font-weight:bold;
 }
 .obsessions p {
-    font-style:italic;
+border-bottom-style:ridge;
 }
 	/*==================progress========================*/
 .progress {
