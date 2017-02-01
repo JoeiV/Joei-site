@@ -57,7 +57,7 @@ font-size:14px;
 
 /* =============================== header ===================================== */
 .header{
-background: url(../img/bghead.jpg) no-repeat center fixed;
+background: url(../img/cloud.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -235,13 +235,16 @@ padding:120px 0;
 .page-bgcolor{
 background:#f2f2f2;
 }
-/* ================================================= about us ================================================== */
+/* ================================================= about ================================================== */
 
 .about-content p{
 font-size:14px;
 padding-bottom:20px;
 margin:0;
 width: 98%;    
+}
+.about-quote p{
+ font-style:italic;
 }
 .avatar{
  max-width:120px;   
@@ -261,6 +264,16 @@ padding: 14px 24px;
 }
 .main-about .btn-clear:hover{
 color:#fff;
+}
+
+.obsessions {
+    text-align:center;
+}
+.obsessions h4 {
+    font-weight:bold;
+}
+.obsessions p {
+    font-style:italic;
 }
 	/*==================progress========================*/
 .progress {
@@ -575,6 +588,7 @@ margin-bottom:20px;
 }
 .contact p a{
 color:#7a7a7a;
+text-align: center;
 }
 .contact p a:hover{
 text-decoration:none;
@@ -665,7 +679,7 @@ margin-right: 0px !important;
  overflow:scroll ;   
 }
 /* ========================================== Responsive ======================================================= */
-
+/* TODO: center align p #obsessions in responsive */
 
 
 @media screen and (min-width:240px) and (max-width: 991px){
