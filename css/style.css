@@ -235,13 +235,16 @@ padding:120px 0;
 .page-bgcolor{
 background:#f2f2f2;
 }
-/* ================================================= about us ================================================== */
+/* ================================================= about ================================================== */
 
 .about-content p{
 font-size:14px;
 padding-bottom:20px;
 margin:0;
 width: 98%;    
+}
+.about-quote p{
+ font-style:italic;
 }
 .avatar{
  max-width:120px;   
@@ -676,7 +679,7 @@ margin-right: 0px !important;
  overflow:scroll ;   
 }
 /* ========================================== Responsive ======================================================= */
-
+/* TODO: center align p #obsessions in responsive */
 
 
 @media screen and (min-width:240px) and (max-width: 991px){
